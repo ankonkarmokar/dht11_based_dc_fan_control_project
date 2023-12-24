@@ -7,9 +7,8 @@ The main objective of this project is to create an automated fan control system 
 - **DHT11 Sensor:** A temperature and humidity sensor to collect environmental data.
 - **DC Fan:** A fan with a DC motor for adjustable speed control.
 - **Microcontroller (e.g., Arduino):** To process sensor data and control the fan.
-- **Transistor/MOSFET:** To interface between the microcontroller and the DC fan for speed control.
+- **Relay:** To interface between the microcontroller and the DC fan for controling.
 - **Power Supply:** To provide power to the microcontroller and fan.
-- **Display (Optional):** An LCD display to show real-time temperature and humidity readings.
 
 ## Project Implementation
 
@@ -20,10 +19,6 @@ The main objective of this project is to create an automated fan control system 
 ### Fan Control
 - Connect the DC fan to the microcontroller through a transistor or MOSFET to control the fan speed.
 - Develop a control algorithm in the microcontroller that adjusts the fan speed based on the temperature and humidity readings. For example, increase the fan speed if the temperature is high or if humidity surpasses a predefined threshold.
-
-### User Interface (Optional)
-- Implement a user interface for the system, which could be a simple LCD display showing real-time temperature, humidity, and fan speed.
-- Alternatively, use serial communication to display information on a computer or another device.
 
 ### Calibration and Thresholds
 - Set up calibration routines to ensure accurate sensor readings.
@@ -41,8 +36,6 @@ The main objective of this project is to create an automated fan control system 
 - **Real-time Monitoring:** The system provides real-time monitoring of environmental conditions and fan speed.
 
 ## Potential Enhancements
-- Integration with IoT for remote monitoring and control.
-- Mobile app or web interface for user-friendly control.
 - Integration with other smart home systems.
 
 This DHT11-based DC fan control project offers a practical and cost-effective solution for automated climate control in various environments, making it suitable for home applications or small-scale industrial settings.
