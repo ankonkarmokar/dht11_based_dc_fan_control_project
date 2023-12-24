@@ -12,6 +12,10 @@ The main objective of this project is to create an automated fan control system 
 
 ## Project Implementation
 
+### Platform Setup
+- Proteus 8 Professional
+- Arduino IDE 2.2.1
+
 ### Sensor Setup
 - Connect the DHT11 sensor to the microcontroller (e.g., Arduino) to measure temperature and humidity.
 - Write code to read data from the DHT11 sensor.
